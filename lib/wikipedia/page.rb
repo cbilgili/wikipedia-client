@@ -31,6 +31,10 @@ module Wikipedia
     def title
       page['title']
     end
+    
+    def extract
+      page['extract']
+    end
 
     def fullurl
       page['fullurl']
